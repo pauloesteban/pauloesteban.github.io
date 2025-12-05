@@ -1,152 +1,188 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My Blog</title>
-        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
-    </head>
-    
-    <body>
-        <!-- header start -->
-        <div id="header" class="section">
-            <img alt="" class="img-circle" src="https://code.sololearn.com/Icons/Avatars/0.jpg">
-            <p>Paulo Chiliguano</p>
-        </div>
-        <!-- header end -->
-        
-        <!-- About Me section start -->
-        <div class="section">
-            <h1><span>About Me</span></h1>
-            <p>
-                I'm <strong>Paulo</strong>. Coding has changed my world. It's not just about apps. Learning to code gave me <i>problem-solving skills</i> and a way to communicate with others on a technical level. I would like to develop websites and use my coding skills to get a better job. And I learned it all at high school, university and <strong>SoloLearn</strong> where they build your self-esteem and keep you motivated. Join me in this rewarding journey. You'll have fun, get help, and learn along the way!
-            </p>
-            <p class="quote">"Declare variables, not war"</p>
-        </div>
-        <!-- About Me section end -->
-        
-        <!-- My Schedule section start -->
-        <div class="section">
-            <h1><span>My Coding Schedule</span></h1>
-            <table>
-                <tr>
-                    <th>Day</th>
-                    <th>Mon</th>
-                    <th>Tue</th>
-                    <th>Wed</th>
-                    <th>Thu</th>
-                    <th>Fri</th>
-                </tr>
-                <tr>
-                    <td>8-8:30</td>
-                    <td class="selected">Breakfast</td>
-                    <td class="selected">Breakfast</td>
-                    <td class="selected">Breakfast</td>
-                    <td class="selected">Breakfast</td>
-                    <td class="selected">Breakfast</td>
-                </tr>
-                <tr>
-                    <td>9-10</td>
-                    <td class="selected">Check email</td>
-                    <td class="selected">Check email</td>
-                    <td class="selected">Check email</td>
-                    <td class="selected">Check email</td>
-                    <td class="selected">Check email</td>
-                </tr>
-                <tr>
-                    <td>1-1:30</td>
-                    <td class="selected">Lunch</td>
-                    <td class="selected">Lunch</td>
-                    <td class="selected">Lunch</td>
-                    <td class="selected">Lunch</td>
-                    <td class="selected">Lunch</td>
-                </tr>
-                <tr>
-                    <td>3:45-5</td>
-                    <td class="selected">Learn</td>
-                    <td class="selected">Learn</td>
-                    <td class="selected">Learn</td>
-                    <td class="selected">Learn</td>
-                    <td class="selected">Learn</td>
-                </tr>
-                <tr>
-                    <td>6-6:15</td>
-                    <td class="selected">Practice</td>
-                    <td class="selected">Code</td>
-                    <td class="selected">Play</td>
-                    <td class="selected">Reading</td>
-                    <td class="selected">Pub</td>
-                </tr>
-            </table>
-        </div>
-        <!-- My Schedule section end -->
-        
-        
-        <!-- My Skills section start -->
-        <div class="section">
-            <h1><span>My Skills</span></h1>
-            <ul>
-                <li>HTML <br />
-                    <progress min="0" max="100" value="80"></progress>
-                </li>
-                <li>CSS <br />
-                    <progress min="0" max="100" value="40"></progress>
-                </li>
-                <li>JavaScript <br />
-                    <progress min="0" max="100" value="0"></progress>
-                </li>
-            </ul>
-        </div>
-        <!-- My Skills section end -->
-        
-        
-         <!-- Media section start -->
-        <div class="section">
-            <h1><span>My Media</span></h1>
-            <iframe height="150" width="300" src="https://www.youtube.com/embed/Q6_5InVJZ88" allowfullscreen frameborder="0"></iframe>
-        </div>
-        <!-- Media section end -->
-        
-        <!-- Form section start -->
-       <div class="section">
-            <h1><span>Contact Me</span></h1>
-            
-            <svg class="face" height="100" width="100">
-                <circle cx="50" cy="50" r="50" fill="#FDD835"/>
-                <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
-                <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
-                <circle cx="30" cy="30" r="5" fill="#000000"/>
-                <circle cx="70" cy="30" r="5" fill="#000000"/>
-                <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
-            </svg>
-                 
-            <form>
-                <input name="name" placeholder="Name" type="text" required /><br/>
-                <input name="email" placeholder="Email" type="email" required /><br/>
-                <textarea name="message" placeholder="Message" required ></textarea>
-                <input type="submit" value="SEND" class="submit" />
-            </form>
-        </div>
-        <!-- Form section end -->
-        
-        <!-- Contacts section start -->
-        <div class="section" id="contacts">
-            <h1><span>Follow Me</span></h1>
-            <div>
-                <a href="https://www.sololearn.com/Profile/11753997/?ref=app" target="_blank">
-                    <img alt="SoloLearn" src="https://www.sololearn.com/Uploads/icons/sololearn.png" />
-                </a>
-                <a href="#">
-                    <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
-                </a>
-                <a href="https://twitter.com/PauloEECS">
-                    <img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" />
-                </a>
-            </div>
-        </div>
-        <!-- Contacts section end -->
-        
-        <div class="copyright">
-            &copy; 2017 My Blog. All rights reserved.
-        </div>
-        
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Paulo Chiliguano &mdash; Software Engineer</title>
+    <meta
+      name="description"
+      content="I am Paulo Chiliguano (@pauloesteban), a software engineer."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="preload"
+      href="../fonts/PTSerif.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="../fonts/PTSans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <style>
+      @font-face {
+        font-family: "PTSerif";
+        src: local("PT Serif"), local("PTSerif"),
+          url("../fonts/PTSerif.woff2") format("woff2"),
+          url("../fonts/PTSerif.woff") format("woff");
+      }
+
+      @font-face {
+        font-family: "PTSans";
+        src: local("PT Sans"), local("PT Sans"),
+          url("../fonts/PTSans.woff2") format("woff2"),
+          url("../fonts/PTSans.woff") format("woff");
+      }
+
+      ::-moz-selection {
+        background: #049cdb;
+        color: #fff;
+        text-shadow: none;
+      }
+
+      ::selection {
+        background: #049cdb;
+        color: #fff;
+        text-shadow: none;
+      }
+
+      html {
+        border-top: 4px solid #232e35;
+      }
+
+      html,
+      li a {
+        background: white;
+        color: #333;
+      }
+
+      body {
+        font: 0.6em/1.618 "PTSerif", Georgia, serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: antialiased;
+      }
+
+      .wrapper {
+        max-width: 51em;
+        padding: 1.618em;
+        margin: 0 auto;
+      }
+
+      p {
+        text-align: justify;
+        text-justify: newspaper;
+        font-size: 110%;
+        line-height: 1.75;
+      }
+
+      h1 {
+        font-size: 175%;
+      }
+
+      h2 {
+        font-size: 135%;
+      }
+
+      a {
+        color: #049cdb;
+        text-decoration: none;
+        outline: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      #me {
+        display: block;
+        width: 135px;
+        border-radius: 25%;
+        margin: 0 auto;
+        padding: 0.809em 0;
+      }
+
+      nav li {
+        font-family: "PTSans", sans-serif;
+        font-weight: 700;
+      }
+
+      #tagline {
+        padding-bottom: 0.809em;
+        border-bottom: thin solid #f3f3f3;
+      }
+
+      p:first-of-type {
+        font-size: 0.8rem;
+        text-indent: 1.6em;
+      }
+
+      nav {
+        border-top: thin solid #999;
+        border-bottom: thin solid #999;
+        margin-bottom: 1.618em;
+      }
+
+      nav li {
+        width: 24%;
+        display: inline-block;
+        font-size: 0.8rem;
+      }
+
+      nav ul {
+        padding-left: 0;
+      }
+
+      h1,
+      h2,
+      nav ul,
+      #tagline {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <ul>
+          <li><a href="https://pauloesteban.wordpress.com">Blog</a></li>
+          <li><a href="https://github.com/pauloesteban">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/pauloesteban/">LinkedIn</a></li>
+        </ul>
+      </nav>
+      <main>
+        <h1>Hi, I'm Paulo Chiliguano</h1>
+        <img
+          id="me"
+          src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+          data-src="/img/paulo8bit.png"
+          alt="Glitched face"
+          title="Paulo Chiliguano"
+        />
+        <h2 id="tagline">
+          <em>Software Engineer</em>
+        </h2>
+        <p>
+          I am currently an independent contractor at 
+          <a href="https://bairesdev.com">BairesDev</a> and a freelance consultant at 
+          <a href="https://dorsa.ai">dorsa.ai</a>. Previously, I was the C++ lead developer at 
+          <a href="https://resonantcavity.com">Resonant Cavity</a> working on the critically-acclaimed 
+          <a href="https://resonantcavity.com/plugin.html">Voloco Producer</a> audio plug-in.
+        </p>
+      </main>
+    </div>
+    <script>
+      window.onload = function (a) {
+        document
+          .getElementById("me")
+          .setAttribute(
+            "src",
+            document.getElementById("me").getAttribute("data-src")
+          );
+      };
+    </script>
+  </body>
 </html>
